@@ -1,0 +1,22 @@
+{
+    "indent_char": " ",
+    "css": {
+        "indent_size": 4,
+        "end_with_newline": true,
+        "extra_liners": false,
+        "preserve_newlines": false,
+        "wrap_line_length": 80
+    },
+    "html": {
+        "indent_size": 4,
+        "end_with_newline": true,
+        "extra_liners": false,
+        "preserve_newlines": false,
+        "wrap_line_length": 80
+    },
+    "indent_size": 4,
+    "end_with_newline": true,
+    "extra_liners": false,
+    "preserve_newlines": false,
+    "wrap_line_length": 80
+}
