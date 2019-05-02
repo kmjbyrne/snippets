@@ -1,0 +1,46 @@
+{
+    "workbench.editor.highlightModifiedTabs": true,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+
+    "explorer.sortOrder": "type",
+    "breadcrumbs.enabled": true,
+
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.minimap.enabled": true,
+    "editor.largeFileOptimizations": false,
+
+    "python.jediEnabled": false,
+    "python.linting.pylintEnabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    "[scss]": {
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+    },
+
+    "[css]": {
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+    },
+
+    "[html]": {
+        "editor.tabSize": 4,
+        "files.trimTrailingWhitespace": true,
+        "files.trimFinalNewlines": true,
+    },
+    "html.format.preserveNewLines": false,
+    "html.format.maxPreserveNewLines": 0,
+    "html.format.endWithNewline": true,
+
+    "eslint.autoFixOnSave": true
+}
