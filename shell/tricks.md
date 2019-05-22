@@ -7,13 +7,13 @@
 # show all contents in history buffer
 history
 
-# last command in the history buffer
+# execute last command in the history buffer
 !
 
 # last 10 commands in the history buffer
 history 10
 
-# run command from history using history registry ID <history id>
+# execute command from history using history registry ID <history id>
 !<history id>
 ```
 
