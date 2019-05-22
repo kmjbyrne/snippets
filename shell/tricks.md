@@ -1,11 +1,10 @@
 # Handy Shell Stuff
 
 
-## History
-
-Show complete shell history
+## History Commands
 
 ```bash
+# show all contents in history buffer
 history
 
 # last command in the history buffer
