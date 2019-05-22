@@ -13,8 +13,11 @@ history
 # last 10 commands in the history buffer
 history 10
 
-# execute command from history using history registry ID <history id>
-!<history id>
+# execute command from history using history registry ID <history-id>
+!<history-id>
+
+# execute command based on a text search (will take the latest if several matches are present)
+?!<search-string>
 ```
 
 ## Run
