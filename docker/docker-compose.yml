@@ -10,7 +10,7 @@ services:
         expose:
             - "8000"
         networks:
-            - bns-reverse-proxy_default
+            - { NETWORK }
 networks:
-    bns-reverse-proxy_default:
+    { NETWORK }:
         external: true
