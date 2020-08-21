@@ -1,0 +1,16 @@
+version: "3"
+services:
+    api:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: api
+        ports:
+            - "8000:5000"
+        expose:
+            - "8000"
+        networks:
+            - bns-reverse-proxy_default
+networks:
+    bns-reverse-proxy_default:
+        external: true
