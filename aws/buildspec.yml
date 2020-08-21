@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions: 
+      python: 3.7
+    commands:
+      - echo "[+] Initialising"
+  pre_build:
+    commands:
+      - echo "[+] Installing pre-build requirements"
+  build:
+    commands:
+      - echo "[+] Running tests"
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - '**/*'
